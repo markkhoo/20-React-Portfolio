@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.0em;
+    background-color: rgba(53, 74, 95, 1);
+}
+
+ul {
+    display: flex;
+}
+
+ul > li {
+    padding: 0 1.0em;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: var(--colorFontPrimary);
+    transition: color 125ms ease-in;
+}
+
+a:hover {
+    color: var(--colorFontSecondary);
+}

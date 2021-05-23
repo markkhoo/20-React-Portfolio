@@ -1,8 +1,17 @@
+:root {
+  --colorBackground: rgb(25, 30, 34);
+  --colorSecondary: rgba(112, 128, 144, 0.1);
+  --colorButtonHover: rgba(112, 128, 144, 0.25);
+  --colorFontPrimary: #fff;
+  --colorFontSecondary: rgb(255, 201, 101);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
+  user-select: none;
+  color: var(--colorFontPrimary);
+  background-color: var(--colorBackground);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
