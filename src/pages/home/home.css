@@ -1,0 +1,19 @@
+.home {
+    display: flex;
+    align-items: center;
+    max-width: 96ch;
+}
+
+.home img {
+    border-radius: 100%;
+    height: 10em;
+    width: 10em;
+    margin: 0 1em;
+}
+
+.home p {
+    margin: 0 1em;
+    line-height: 1.25em;
+    max-height: 10em;
+    overflow: auto;
+}
