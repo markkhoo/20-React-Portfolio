@@ -1,0 +1,23 @@
+.contact {
+    display: flex;
+}
+
+.contact a {
+    border-radius: 100%;
+    height: 10em;
+    width: 10em;
+    background-size: cover;
+    margin: 0 1em;
+}
+
+#email {background-image: url(./email.png);}
+#linkd {background-image: url(./linkedin.png);}
+#githb {background-image: url(./github.png);}
+#resum {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    letter-spacing: 0.5em;
+}

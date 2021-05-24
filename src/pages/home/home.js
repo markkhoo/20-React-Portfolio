@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import DayJS from 'react-dayjs';
+// import DayJS from 'react-dayjs';
 import './home.css';
 import ProfilePic from './MarkKhoo.png';
 
