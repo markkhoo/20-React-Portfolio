@@ -8,10 +8,10 @@ function Home(){
     useEffect(() => {
         const d = new Date().getTime();
         setDays(Math.floor((d - 1615262400000) / (24*60*60*1000)));
-        const interval = setInterval(() => {
+        const interval2 = setInterval(() => {
             setDays(Math.floor((d - 1615262400000) / (24*60*60*1000)));
         },1000);
-        return () => clearInterval(interval)
+        return () => clearInterval(interval2)
         // https://upmostly.com/tutorials/setinterval-in-react-components-using-hooks
     }, [])
 
