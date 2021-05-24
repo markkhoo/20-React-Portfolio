@@ -4,9 +4,9 @@ import './footer.css';
 function Footer() {
     return (
         <div className="footer">
-            <p>Waves by <a href="https://codepen.io/goodkatz/pen/LYPGxQz?editors=1100/">Daniel Österman</a></p>
+            <p>Waves by <a href="https://codepen.io/goodkatz/pen/LYPGxQz?editors=1100/" target="_blank" rel="noreferrer noopener">Daniel Österman</a></p>
             <p>2021</p>
-            <p>Powered with <a href="https://reactjs.org/">React</a></p>
+            <p>Powered with <a href="https://reactjs.org/" target="_blank" rel="noreferrer noopener">React</a></p>
 
             {/* React needs svg Namespace tag conversions: (shape-rendering TO shapeRendering) & ( xmlns:xlink TO  xmlnsXlink ) & ( xlink:href TO xlinkHref ) https://stackoverflow.com/questions/59820954/syntaxerror-unknown-namespace-tags-are-not-supported-by-default */}
             <div id="background-container">
