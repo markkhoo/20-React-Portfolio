@@ -11,7 +11,7 @@ function Home(){
         const interval2 = setInterval(() => {
             setDays(Math.floor((d - 1615262400000) / (24*60*60*1000)));
         },1000);
-        return () => clearInterval(interval2)
+        return () => clearInterval(interval2);
         // https://upmostly.com/tutorials/setinterval-in-react-components-using-hooks
     }, [])
 

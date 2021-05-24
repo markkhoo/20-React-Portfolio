@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './header.css';
 
 function Header(){
+    // States for Name animation
     const [getName, setName] = useState("");
     const [getTick, setTick] = useState("_");
 
