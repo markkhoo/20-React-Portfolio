@@ -17,3 +17,7 @@
     max-height: 10em;
     overflow: auto;
 }
+
+.home p span {
+    color: var(--colorFontSecondary);
+}
