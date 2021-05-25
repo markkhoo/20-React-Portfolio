@@ -7,6 +7,10 @@
     max-height: 48px; /* This keeps the waves to the top of the foot connected */
 }
 
+.footer p {
+    opacity: 0.75;
+}
+
 /* Animation */
 #background-container {
     position: absolute;

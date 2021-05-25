@@ -23,7 +23,7 @@
 }
 
 #email, #linkd, #githb {
-    color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0); /* Hides font over background */
     display: flex;
     align-items: center;
     justify-content: center;
