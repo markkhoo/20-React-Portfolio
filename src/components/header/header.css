@@ -26,6 +26,11 @@ a, a:link, a:visited {
     transition: color 125ms ease-in;
 }
 
+a:active {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+    transition: all 120ms linear;
+}
+
 a:hover {
     color: var(--colorFontSecondary);
 }
