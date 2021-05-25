@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Card from '../../components/projectCard/projectCard';
 import './projects.css';
 
-function Projects(){
+function Projects() {
     const [getProj, setProj] = useState([
         {
             id: 1,
@@ -43,18 +43,20 @@ function Projects(){
     ]);
 
     return (
-        <div className="projects">
-            {getProj.map(item => {
-                return (
-                    <Card 
-                        key={item.id}
-                        id={item.id}
-                        title={item.title}
-                        deploy_link={item.deploy_link}
-                        github={item.github_link}
-                    />
-                )
-            })}
+        <div className="scroller">
+            <div className="projects">
+                {getProj.map(item => {
+                    return (
+                        <Card
+                            key={item.id}
+                            id={item.id}
+                            title={item.title}
+                            deploy_link={item.deploy_link}
+                            github={item.github_link}
+                        />
+                    )
+                })}
+            </div>
         </div>
     )
 };
