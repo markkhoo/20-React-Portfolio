@@ -10,21 +10,12 @@
 }
 
 .scroller {
-
-    width: 90%;
-
+    width: 1536px;
     overflow-x: scroll;
-    
 }
 
-/* @media (min-width: 600px) {
-    .projects {
-        grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 1536px) {
+    .scroller {
+        width: 100%;
     }
-} */
-
-/* @media (min-width: 800px) {
-    .projects {
-        grid-template-columns: repeat(4, 1fr);
-    }
-} */
+}

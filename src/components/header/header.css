@@ -17,6 +17,7 @@ ul {
 
 ul > li {
     padding: 0 1.0em;
+    text-align: center;
 }
 
 a, a:link, a:visited {
