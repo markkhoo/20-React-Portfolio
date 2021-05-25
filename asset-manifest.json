@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ddd01256.chunk.css",
+    "main.js": "/Portfolio/static/js/main.8c6de56e.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.8c6de56e.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.d642919c.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d642919c.js.map",
+    "static/js/2.42d2ebf3.chunk.js": "/Portfolio/static/js/2.42d2ebf3.chunk.js",
+    "static/js/2.42d2ebf3.chunk.js.map": "/Portfolio/static/js/2.42d2ebf3.chunk.js.map",
+    "static/js/3.13fa4a5f.chunk.js": "/Portfolio/static/js/3.13fa4a5f.chunk.js",
+    "static/js/3.13fa4a5f.chunk.js.map": "/Portfolio/static/js/3.13fa4a5f.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.ddd01256.chunk.css.map": "/Portfolio/static/css/main.ddd01256.chunk.css.map",
+    "static/js/2.42d2ebf3.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.42d2ebf3.chunk.js.LICENSE.txt",
+    "static/media/projectCard.css": "/Portfolio/static/media/worldphoto.cfa7968f.jpg",
+    "static/media/MarkKhoo.94b6171c.png": "/Portfolio/static/media/MarkKhoo.94b6171c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d642919c.js",
+    "static/js/2.42d2ebf3.chunk.js",
+    "static/css/main.ddd01256.chunk.css",
+    "static/js/main.8c6de56e.chunk.js"
+  ]
+}
