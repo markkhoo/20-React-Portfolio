@@ -6,6 +6,11 @@
     background-color: rgba(53, 74, 95, 1);
 }
 
+.header a {
+    font-size: 110%;
+    letter-spacing: 0.125em;
+}
+
 ul {
     display: flex;
 }
@@ -15,8 +20,6 @@ ul > li {
 }
 
 a, a:link, a:visited {
-    font-size: 110%;
-    letter-spacing: 0.125em;
     text-decoration: none;
     color: var(--colorFontPrimary);
     transition: color 125ms ease-in;
