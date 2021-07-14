@@ -19,7 +19,11 @@ function Home(){
         <div className="home">
             <img src={ProfilePic} alt="My Headshot"/>
             <p>
-                I am a former Construction Engineer EIT based out in Emeryville, California. I was last seen designing Falsework for the Los Angeles County Museum of Art that spans over Wilshire Boulevard. Now, I am an up and coming full stack developer. It has been <span>{getDays}</span> days since I began my journey coding. Coding really scratches that creative and problem-solving itch. I strive to be, at the very least, a full-stack dilettante and insatialble learner. Where will I be next?
+                I am a Full-Stack Web Developer based out in Emeryville, California. My experience in civil engineering and construction design has prepared me to create practical software architecture and high-quality responsive web applications. Earned a certificate in full-stack web development from the University California Berkeley Extension in June 2021, with knowledge in HTML5, CSS, JavaScript, React.js, responsive web design, and more. It has been <span>{getDays}</span> days since I began my journey coding. 
+                <br/><br/>
+                My goal for every project is to produce user-facing interfaces that are comfortable to navigate and efficient for people to interact with. I worked on a team of four to develop a MERN stack application that helps influencers or marketing researchers analyze tweets searched by query for sentiment data. I am eager to use my skills and problem solving ability in a quality oriented team to build competitive web experiences.
+                <br/><br/>
+                I’m excited to leverage my skills in the future as part of a fast-paced, quality-driven team. Reach out to me to chat about our next project <a href="mailto:markdkhoo@gmail.com">HERE</a>.
             </p>
         </div>
     )
