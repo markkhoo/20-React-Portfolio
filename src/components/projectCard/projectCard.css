@@ -83,6 +83,12 @@
     margin-top: 1rem;
 }
 
+.content a {
+    background-color: #000000ad;
+    padding: 0.5em 2em;
+    border: 1px solid #ffffffad;
+}
+
 .title {
     font-size: 1.3rem;
     font-weight: bold;
